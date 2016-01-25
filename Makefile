@@ -1,7 +1,5 @@
 #  Makefile 
-#  Auteur : Farès BELHADJ
-#  Email  : amsi@ai.univ-paris8.fr
-#  Date   : 03/02/2014
+
 
 SHELL = /bin/sh
 # définition des commandes utilisées
