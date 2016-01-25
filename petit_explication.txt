@@ -1,0 +1,4 @@
+Ce programme a pour bute de detecter les differentes parties d'un visage puis changer
+la couleur des pixels de chaque partie, la partie detection est operationnelle mais pas
+la partie changement de couleur car elle s'applique a tout l'image et non au partie
+voulue.
