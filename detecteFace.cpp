@@ -65,7 +65,7 @@ int main(){
 
   cvtColor(ci, gsi, COLOR_BGR2GRAY);
 
-  visage();
+   visage();
 	yeux();
 	nez();
 	bouche();
