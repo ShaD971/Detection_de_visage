@@ -90,7 +90,7 @@ void visage(){//detecte le visage
       	rectangle(ci, (*fc).tl(), (*fc).br(), Scalar(0, 0, 255), 2, CV_AA);//rouge
         // centre le text
         Point textOrg(((*fc).tl(), (*fc).br()));
-        putText(ci, text, textOrg, fontFace, fontScale,Scalar::all(255), thickness, 8);   
+       // putText(ci, text, textOrg, fontFace, fontScale,Scalar::all(255), thickness, 8);   
         /* for (int i = 0; i < ci.cols; i++) {
     for (int j = 0; j < ci.rows; j++) {
         Vec3b &intensity = ci.at<Vec3b>(j, i);
@@ -110,7 +110,7 @@ void yeux(){
 	  for (vector<Rect>::iterator fc = eyes.begin(); fc != eyes.end(); ++fc) {
      	 rectangle(ci, (*fc).tl(), (*fc).br(), Scalar(255, 0, 0), 2, CV_AA);//bleu
         Point textOrg(((*fc).tl(), (*fc).br()));
-        putText(ci, "oeil", textOrg, fontFace, fontScale,Scalar::all(255), thickness, 8);
+        //putText(ci, "oeil", textOrg, fontFace, fontScale,Scalar::all(255), thickness, 8);
         
          /* for (int i = 0; i < ci.cols; i++) {
     for (int j = 0; j < ci.rows; j++) {
@@ -131,7 +131,7 @@ void bouche(){
 	    for (vector<Rect>::iterator fc = mouths.begin(); fc != mouths.end(); ++fc) {
       rectangle(ci, (*fc).tl(), (*fc).br(), Scalar(255, 0,255), 2, CV_AA);//rose
      Point textOrg(((*fc).tl(), (*fc).br()));
-        putText(ci, "bouche", textOrg, fontFace, fontScale,Scalar::all(255), thickness, 8);
+      //  putText(ci, "bouche", textOrg, fontFace, fontScale,Scalar::all(255), thickness, 8);
          /* for (int i = 0; i < ci.cols; i++) {
     for (int j = 0; j < ci.rows; j++) {
         Vec3b &intensity = ci.at<Vec3b>(j, i);
@@ -151,7 +151,7 @@ void nez(){
     for (vector<Rect>::iterator fc = nariz.begin(); fc != nariz.end(); ++fc) {
       rectangle(ci, (*fc).tl(), (*fc).br(), Scalar(0,255, 255), 2, CV_AA);//jaune
        Point textOrg(((*fc).tl(), (*fc).br()));
-        putText(ci, "nez", textOrg, fontFace, fontScale,Scalar::all(255), thickness, 8);
+       // putText(ci, "nez", textOrg, fontFace, fontScale,Scalar::all(255), thickness, 8);
      
       //fonction qui change l'intensité des pixels ( pas encore operationelle)
  /* for (int i = 0; i < ci.cols; i++) {
