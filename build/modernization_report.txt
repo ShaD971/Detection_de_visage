@@ -1,0 +1,40 @@
+Modernization report
+
+Fichiers modifies
+- .gitignore
+- CMakeLists.txt
+- Makefile
+- README.md
+- .github/workflows/cpp.yml
+- legacy/detecteFace_haar.cpp
+- models/README.md
+- src/FaceDetector.hpp
+- src/FaceDetector.cpp
+- src/main.cpp
+
+Ancienne methode
+- Demonstration OpenCV basee sur cascades Haar chargeant les XML visage, yeux, bouche et nez.
+- Build Makefile ancien avec options OpenCV historiques.
+
+Nouvelle methode
+- Application C++17 avec CMake.
+- Detection moderne via cv::FaceDetectorYN et modele YuNet OpenCV Zoo.
+- Le mode Haar est conserve dans legacy/ pour comparaison pedagogique.
+
+Fonctions ajoutees
+- Arguments de ligne de commande.
+- Webcam, image ou video.
+- Rectangle, score, centre et cinq points faciaux.
+- Compteur de visages et FPS moyen.
+- Capture manuelle.
+- Floutage ou pixelisation des visages.
+- Pause, aide et sortie clavier.
+- Lissage temporel simple des rectangles.
+
+Resultat de compilation
+- cmake -S . -B build : impossible localement, cmake n'est pas installe ou pas disponible dans le PATH Windows.
+- cmake --build build --config Release : non execute car la configuration CMake n'a pas pu demarrer.
+
+Limites restantes
+- Le modele ONNX n'est pas inclus et doit etre telecharge depuis OpenCV Zoo.
+- Aucune capture reelle n'a ete ajoutee sans camera/image libre disponible.

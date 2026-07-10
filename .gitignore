@@ -1,0 +1,12 @@
+*.o
+*.obj
+*.exe
+*.out
+*.log
+build/*
+!build/modernization_report.txt
+cmake-build-*/
+.vscode/
+.idea/
+*~
+.DS_Store
