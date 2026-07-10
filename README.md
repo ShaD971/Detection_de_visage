@@ -128,9 +128,7 @@ docs/screenshots/
 
 ## Captures d'écran
 
-Dernière capture réalisée avec OpenCV et YuNet :
-
-<img src="Face%20detection_screenshot_10.07.2026.png" alt="Détection de visage avec OpenCV YuNet" width="420">
+Aucune capture d'écran réelle n'est affichée dans le README.
 
 ## Confidentialité
 
