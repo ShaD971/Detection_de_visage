@@ -1,7 +1,9 @@
 # Détection de visage avec OpenCV
 
-Projet C++ de détection de visages en temps réel développé avec OpenCV.
-La version modernisée utilise YuNet pour améliorer la précision, la détection de plusieurs visages et la robustesse face aux variations de pose et d'éclairage.
+Cette application C++ permet de détecter des visages en temps réel depuis une webcam, une image ou une vidéo grâce à OpenCV.
+La version modernisée utilise YuNet, un modèle officiel d'OpenCV Zoo, afin d'améliorer la précision, la détection de plusieurs visages et la robustesse face aux variations de pose et d'éclairage.
+
+L'interface affiche les visages détectés avec un rectangle, un score de confiance, le centre du visage et les principaux repères faciaux. Elle permet aussi de prendre une capture manuelle, de flouter ou de pixeliser les visages, et de suivre les performances avec un compteur de FPS.
 
 Le projet conserve également une démonstration historique utilisant les cascades Haar afin de comparer les deux approches.
 
@@ -126,15 +128,9 @@ docs/screenshots/
 
 ## Captures d'écran
 
-Les emplacements sont prévus pour :
+Dernière capture réalisée avec OpenCV et YuNet :
 
-```text
-docs/screenshots/detection.png
-docs/screenshots/privacy_blur.png
-docs/screenshots/landmarks.png
-```
-
-Aucune fausse capture n'est ajoutée si aucune caméra ou image libre n'est disponible.
+<img src="Face%20detection_screenshot_10.07.2026.png" alt="Détection de visage avec OpenCV YuNet" width="420">
 
 ## Confidentialité
 
