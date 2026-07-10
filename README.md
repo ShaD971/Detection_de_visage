@@ -126,11 +126,11 @@ models/
 docs/screenshots/
 ```
 
-## Illustration
+## Captures d'écran
 
-Illustration de l'application de détection de visage avec OpenCV et YuNet :
+Illustration de la détection de visage avec OpenCV et YuNet :
 
-<img src="docs/screenshots/face-detection-illustration.png" alt="Illustration de la détection de visage avec OpenCV YuNet" width="420">
+![Illustration de la détection de visage avec OpenCV et YuNet](docs/screenshots/face_detection_illustration.png)
 
 ## Confidentialité
 
