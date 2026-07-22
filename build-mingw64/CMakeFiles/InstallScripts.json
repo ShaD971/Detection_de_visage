@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Dev/Detection_de_visage/build-mingw64/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

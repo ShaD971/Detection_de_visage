@@ -6,6 +6,7 @@
 build/*
 !build/modernization_report.txt
 cmake-build-*/
+build-mingw64/
 .vscode/
 .idea/
 *~
